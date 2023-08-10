@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  /* background-color: blue; */
+}
+
+header {
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0px 0px 0px 150px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 42%;
+  font-size: 90px;
+  line-height: 50px;
+  float: left;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+
+.navbar-list {
+  width: 100%;
+  height: 60px;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 25px 50px;
+}
+
+.navbar-list a:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+/* banner */
+
+.banner {
+  background-image: url(../img/teacher.jpg);
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 75px;
+}
+
+.banner h2 {
+  align-items: center;
+  /* background-color: blue; */
+  height: 150px;
+  width: 56%;
+  font-size: 16px;
+  margin-top: 50px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.banner h2:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.banner a {
+  color: white;
+  background-color: black;
+  width: 250px;
+  height: 60px;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 100px;
+}
+
+.banner a:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 60px;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 24px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+/* section 2 */
+
+.section-2 {
+  background-image: url(../img/mapa2.jpg);
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  /* background-color: azure; */
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  gap: 25px;
+}
+
+.titulo1 h1 {
+  margin: 50px;
+  font-size: 35px;
+  font-weight: 70px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 9px 5px rgba(0, 0, 0, 0.46);
+}
+
+.card {
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: aqua;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 1, 0.5);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: 215px;
+  padding: 0px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card p {
+  padding: 10px;
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.card h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  color: #000000;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: all 400ms ease;
+  margin-bottom: 10px;
+}
+
+.card a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+/*  */
+/*  */
+/* beneficios */
+
+#section3 {
+  background-image: url(../img/manos.jpg);
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* color: rgb(255, 0, 0); */
+}
+.row {
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  gap: 25px;
+}
+
+.row #column1 {
+  width: 100%;
+  margin: 1%;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #ffffffc9;
+  box-shadow: 0px 1px 10px rgba(0, 0, 1, 0.5);
+  cursor: default;
+  transition: all 400ms ease;
+  text-align: center;
+}
+
+.row #column1:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+  transform: translateY(-4%);
+}
+
+.row p {
+  padding: 20px;
+  text-align: center;
+  line-height: 1.5;
+  color: #747474;
+}
+.beneficios h1 {
+  margin: 50px;
+  font-size: 35px;
+  font-weight: 70px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 9px 5px rgba(0, 0, 0, 0.46);
+}
+
+.column-title h2 {
+  margin: 50px;
+  font-size: 35px;
+  font-weight: 70px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* footer */
+
+footer {
+  position: left;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #8d8d8d;
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10px;
+  color: #ffffff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.redes {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.redes li {
+  margin: 0 10px;
+}
+.redes a {
+  text-decoration: none;
+  color: #fff;
+}
+.redes a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+.redes a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  width: 100%;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
