@@ -11,7 +11,7 @@ body {
   background-attachment: fixed;
 }
 header {
-  background: #ffffff;
+  background: #1a2537;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -62,26 +62,29 @@ main {
 
 .navbar-list a {
   text-decoration: none;
-  color: rgb(80, 80, 80);
+  color: rgba(255, 255, 255, 0.918);
   font-size: 12px;
   font-weight: 600;
   padding: 25px 50px;
 }
 
 .navbar-list a:hover {
-  color: rgb(255, 255, 255);
-  background-color: black;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 /* banner */
 
 .banner {
+  background-image: url(../img/teacher.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url(../img/teacher.jpg);
+
   background-position: center;
+  min-height: 100vh;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,12 +109,12 @@ main {
 
 .banner h2:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
+  transform: translateY(-0.2%);
 }
 
 .banner a {
   color: white;
-  background-color: black;
+  background-color: #1a2537;
   width: 250px;
   height: 60px;
   border-radius: 35px;
@@ -126,7 +129,7 @@ main {
 
 .banner a:hover {
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: cadetblue;
   width: 250px;
   height: 60px;
   border-radius: 35px;
@@ -137,7 +140,7 @@ main {
   text-decoration: none;
   font-size: 24px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
+  transform: translateY(-1%);
 }
 
 /* section 2 */
@@ -147,8 +150,8 @@ main {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  min-height: 100vh;
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -221,16 +224,29 @@ main {
   margin-top: 10px;
   color: rgb(255, 255, 255);
   border: 1px solid gray;
-  background-color: rgb(0, 0, 0);
+  background-color: #1a2537;
   border-radius: 10px;
   transition: all 400ms ease;
   margin-bottom: 10px;
 }
 
 .card a:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: cadetblue;
+  color: #ffffff;
 }
+
+.precio {
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 10px;
+  background-color: #686868cb;
+  color: #000000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
 /*  */
 /*  */
 /* beneficios */
@@ -240,8 +256,9 @@ main {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  min-height: 100vh;
   width: 100%;
-  height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -296,6 +313,109 @@ main {
   color: rgb(255, 255, 255);
   text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.6);
 }
+/*  */
+
+/* Contacto */
+.contacto {
+  background-image: url(../img/contacto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contacto-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.contacto-content h2 {
+  color: #fff;
+  margin: 30px;
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 9px 5px rgba(0, 0, 0, 0.46);
+}
+
+.contacto .contacto-content p {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.contacto-container {
+  width: 80%;
+
+  background-color: #00000056;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.info {
+  width: 40%;
+  /* background-color: #1a2537; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.box {
+  position: relative;
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.iconos {
+  width: 5%;
+  min-width: 60px;
+  height: 55px;
+
+  color: #1a2537;
+  background: #ffffffce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45%;
+  font-size: 25px;
+}
+
+.textos {
+  display: flex;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.textos h3 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.mapa {
+  width: 30%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
 
 /* footer */
 
@@ -304,7 +424,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #8d8d8d;
+  background: #1a2537;
   height: auto;
   width: 100%;
   padding-top: 20px;

@@ -3,6 +3,7 @@ body {
   background: url(../img/soul.jpg);
   background-size: cover;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 * {
   box-sizing: border-box;
@@ -69,6 +70,25 @@ p {
   width: 500px;
   margin-top: 150px;
   border-radius: 2%;
+}
+
+/* boton inicio */
+
+.inicio {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.inicio a {
+  background-color: #1a2537;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.inicio a:hover {
+  background: cadetblue;
 }
 
 /* -----------  */
