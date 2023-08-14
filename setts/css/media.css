@@ -59,6 +59,7 @@
     background-color: #1a2537;
     border-top: none;
     gap: 25px;
+    opacity: 0.9;
 
     z-index: 2;
     display: none;
@@ -83,14 +84,14 @@
   .container {
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 390px;
+    max-width: 360px;
     align-items: center;
   }
 
   .row {
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 390px;
+    max-width: 360px;
   }
 
   .contacto-container p {
@@ -103,7 +104,7 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 390px;
+    max-width: 360px;
   }
   .contacto-content p {
     display: none;
@@ -138,13 +139,17 @@
   .iconos {
     display: none;
   }
-
+  .row {
+    max-width: 390px;
+    width: 80%;
+  }
   .textos {
     display: flex;
     text-align: center;
     align-items: center;
   }
   .container {
+    max-width: 390px;
     width: 80%;
   }
   .textos h3 {
@@ -158,14 +163,18 @@
   .contacto-content p {
     display: none;
   }
-
+  .contacto-container {
+    max-width: 320px;
+  }
   .mapa {
-    padding: 10px;
+    padding: 20px;
+    max-width: 320px;
+    width: 300px;
   }
 
   .formulario {
     margin: auto;
-    width: 400px;
+    width: 360px;
     margin-top: 150px;
     border-radius: 2%;
   }
@@ -173,8 +182,18 @@
   .formulario h1 {
     font-size: 30px;
   }
+
+  .footer-content {
+    width: 360px;
+  }
 }
 
 /* Celulares pequeños */
 @media (max-width: 576px) {
+}
+
+@media (max-width: 400px) {
+  .mapa {
+    display: none;
+  }
 }
