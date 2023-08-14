@@ -163,8 +163,15 @@
     padding: 10px;
   }
 
-  .contenedor {
-    width: 80%;
+  .formulario {
+    margin: auto;
+    width: 400px;
+    margin-top: 150px;
+    border-radius: 2%;
+  }
+
+  .formulario h1 {
+    font-size: 30px;
   }
 }
 
