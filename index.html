@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>integrador</title>
+
     <link rel="stylesheet" href="./setts/css/style.css" />
-    <link rel="stylesheet" href="./setts/css/animaciones.css" />
+    <link rel="stylesheet" href="./setts/css/media.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -15,30 +15,32 @@
       src="https://kit.fontawesome.com/ef84a1a081.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans:wght@500&display=swap");
     </style>
+    <title>integrador</title>
   </head>
   <body>
     <main>
       <!-- header -->
-      <header>
+      <header class="header">
+        <img src="./setts/icon/SinFondoUno.png" alt="logo" class="logo" />
         <nav class="navbar">
-          <img
-            src="./setts/icon/SinFondoUno.png"
-            alt="icon-idioma"
-            class="logo"
-          />
-
-          <div>
-            <ul class="navbar-list">
-              <li><a href="#banner">HOME</a></li>
-              <li><a href="#idiomas">IDIOMAS</a></li>
-              <li><a href="#section3">BENEFICIOS</a></li>
-              <li><a href="#contacto">CONTACTO</a></li>
-              <li><a href="./setts/pag/login.html"> LOG IN</a></li>
-            </ul>
-          </div>
+          <label for="toggle-menu">
+            <i class="fa-solid fa-bars" style="color: white"></i
+          ></label>
+          <input type="checkbox" id="toggle-menu" />
+          <ul class="navbar-list">
+            <li><a href="#banner" class="navbar-link">HOME</a></li>
+            <li><a href="#idiomas" class="navbar-link">IDIOMAS</a></li>
+            <li><a href="#section3" class="navbar-link">BENEFICIOS</a></li>
+            <li><a href="#contacto" class="navbar-link">CONTACTO</a></li>
+            <li><a href="./setts/pag/login.html"> LOGIN</a></li>
+          </ul>
         </nav>
       </header>
 
@@ -194,6 +196,7 @@
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
               </div>
               <div class="textos">
+                <h3>Ubicación</h3>
                 <p>
                   398-300 South St, <br />
                   Owattonna,Minnesota, <br />55060

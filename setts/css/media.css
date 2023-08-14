@@ -1,0 +1,173 @@
+@media (max-width: 1300px) {
+  .navbar {
+    gap: 1px;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+  }
+  .navbar-list {
+    gap: 5px;
+  }
+  .banner {
+    display: flex;
+  }
+
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner h2 {
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+  }
+  .banner a {
+    font-size: 20px;
+  }
+
+  .section-2 {
+    display: flex;
+    gap: 5px;
+  }
+
+  .titulo1 h1 {
+    font-size: 25px;
+  }
+  .container {
+    gap: 2px;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+}
+/* tablets - pc */
+@media (max-width: 992px) {
+  .navbar ul {
+    width: 90%;
+    height: calc(100vh - 70px);
+    position: absolute;
+    top: 60px;
+    right: 5%;
+    left: 7%;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    border-radius: 0px 0px 16px 16px;
+    background-color: #1a2537;
+    border-top: none;
+    gap: 25px;
+
+    z-index: 2;
+    display: none;
+  }
+  .navbar a {
+    font-size: 15px;
+  }
+  .navbar i {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ .navbar-list {
+    display: flex;
+  }
+
+  .section-2 {
+    align-items: center;
+    flex-direction: column;
+    /* display: none; */
+  }
+
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 390px;
+    align-items: center;
+  }
+
+  .row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 390px;
+  }
+
+  .contacto-container p {
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contacto-container {
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 390px;
+  }
+  .contacto-content p {
+    display: none;
+  }
+  .iconos {
+    display: none;
+  }
+  .textos {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+/* celulares - tablets */
+@media (max-width: 768px) {
+  .banner h1 {
+    max-width: 390px;
+    text-align: center;
+  }
+
+  .banner h2 {
+    display: none;
+  }
+
+  .box {
+    font-size: 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .iconos {
+    display: none;
+  }
+
+  .textos {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .container {
+    width: 80%;
+  }
+  .textos h3 {
+    font-size: 15px;
+
+    text-align: 20px;
+  }
+  .contacto-content h2 {
+    font-size: 40px;
+  }
+  .contacto-content p {
+    display: none;
+  }
+
+  .mapa {
+    padding: 10px;
+  }
+
+  .contenedor {
+    width: 80%;
+  }
+}
+
+/* Celulares pequeños */
+@media (max-width: 576px) {
+}

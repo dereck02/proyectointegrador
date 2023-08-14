@@ -10,6 +10,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   overflow: auto;
+  border: 0px solid;
 }
 header {
   background: #1a2537;
@@ -18,10 +19,12 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 0px 0px 0px 150px;
+  padding: 0px 30px;
   position: sticky;
   top: 0;
   z-index: 2;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+  height: 60px;
 }
 
 main {
@@ -31,34 +34,50 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 0px solid;
 }
 
-.logo {
-  height: 42%;
-  font-size: 90px;
-  line-height: 50px;
-  float: left;
+.navbar ul {
+  list-style-type: none;
   display: flex;
-}
+  gap: 50px;
 
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 200px;
-  width: 100%;
-}
-
-.navbar-list {
   width: 100%;
   height: 60px;
   list-style: none;
   display: flex;
-  gap: 40px;
   align-items: center;
-  flex-direction: row;
-  justify-content: flex-end;
   overflow: hidden;
+  font-size: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar i {
+  font-size: 20px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 300;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  display: flex;
 }
 
 .navbar-list a {
@@ -74,6 +93,7 @@ main {
   background-color: rgb(255, 255, 255);
 }
 
+/*  */
 /* banner */
 
 .banner {
@@ -264,7 +284,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* color: rgb(255, 0, 0); */
 }
 .row {
   width: 100%;

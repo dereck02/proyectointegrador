@@ -3,7 +3,6 @@ body {
   background: url(../img/soul.jpg);
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100vh;
 }
 * {
   box-sizing: border-box;
@@ -94,7 +93,7 @@ p {
 /* -----------  */
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
