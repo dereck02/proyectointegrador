@@ -8,7 +8,7 @@
 
 body {
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   overflow: auto;
   border: 0px solid;
 }
@@ -99,8 +99,8 @@ main {
 .banner {
   background-image: url(../img/teacher.jpg);
   background-repeat: no-repeat;
+  /*  background-attachment: fixed;*/
   background-size: cover;
-  background-attachment: fixed;
 
   background-position: center;
   min-height: 100vh;
@@ -170,7 +170,7 @@ main {
   background-image: url(../img/mapa2.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -276,7 +276,7 @@ main {
   background-image: url(../img/manos.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 100vh;
   width: 100%;
 
@@ -340,7 +340,7 @@ main {
   background-image: url(../img/contacto.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 
   min-height: 100vh;
   width: 100%;

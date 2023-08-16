@@ -2,7 +2,7 @@ body {
   margin: 0;
   background: url(../img/soul.jpg);
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 * {
   box-sizing: border-box;
